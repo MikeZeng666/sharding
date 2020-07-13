@@ -17,7 +17,7 @@ public class ShardingTest {
 
     @Test
     public void testInsert() {
-//    	service.insert();
+    	service.insert();
     }
     
     @Test
@@ -32,7 +32,6 @@ public class ShardingTest {
     
     @Test(expected= Exception.class)
     public void testQueryDistinct() {
-//    	Assert.
     	service.queryDistinct();
     }
 }
